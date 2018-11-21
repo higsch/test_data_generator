@@ -22,7 +22,7 @@ data <- sapply(X = experiments,
                           qssm,
                           qupm,
                           matches(paste0(experiment, paste0(quant_pattern, channel_pattern))))
-                 colnames(tmp) <- gsub(pattern = paste0("^", experiment, "_tmt10plex_"),
+                 colnames(tmp) <- gsub(pattern = paste0("^", experiment, quant_pattern),
                                        replacement = "",
                                        x = colnames(tmp))
                  return(tmp)
