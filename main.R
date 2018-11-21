@@ -34,7 +34,7 @@ dim(psms)
 
 # subsampling
 set.seed(222628)
-sample_ratio <- .05
+sample_ratio <- .01
 
 # subsample proteins
 proteins.sub <- proteins %>%
