@@ -3,7 +3,6 @@
 
 quant_pattern   <- "_tmt10plex_"
 channel_pattern <- "1[23][016789][NC]?$"
-quant_prefix    <- "rel_fc_"
 
 proteins.sub.tidy <- proteins.sub %>%
   select(`Protein accession`,
